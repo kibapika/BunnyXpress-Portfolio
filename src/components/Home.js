@@ -6,7 +6,7 @@ const Home = () => {
   const [toggler, setToggler] = useState(false);
 
   return (
-    <div className="w-screen max-w-[inherit] flex flex-row-reverse justify-evenly items-center">
+    <div className="flex flex-row-reverse justify-evenly items-center">
       <section className="w-[40%]">
         <h1 className="text-[2rem]">Welcome to</h1>
         <h1 className="text-[3.3rem] font-bold py-3">BunnyXpress</h1>
@@ -14,7 +14,7 @@ const Home = () => {
           You will find various artwork and merchandise that I have created.
         </p>
       </section>
-      <button className="w-[40%] m-4" onClick={() => setToggler(!toggler)}>
+      <button className="w-[40%] max-w-2xl m-4" onClick={() => setToggler(!toggler)}>
         <img className="rounded-xl" alt="mochiBunny" src={mochiBunny} />{" "}
       </button>
       <FsLightbox toggler={toggler} sources={[mochiBunny]} />
