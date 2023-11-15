@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="h-screen flex flex-col justify-evenly">
+    <div className="h-screen flex flex-col justify-between">
       <Header />
       <main>
         <Routes>

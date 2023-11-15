@@ -4,19 +4,23 @@ import { FaEtsy } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="h-[5rem] flex flex-row justify-between content-center items-center mx-24 text-[1.15rem]">
-      <a href="https://github.com/kibapika/BunnyXpress-Portfolio">
+    <div className="h-[9%] flex flex-row justify-between content-center items-center mx-24 text-[#b1a7a6]">
+      <a href="https://github.com/kibapika/BunnyXpress-Portfolio"
+      className="hover:text-black transition duration-300">
         Designed & Built by Eva Li - Github
       </a>
       <section 
-      className="w-1/12 flex flex-row justify-between">
-        <a href="https://www.instagram.com/bunny_xpress/">
+      className="w-[11%] flex flex-row justify-between text-[1.2rem]">
+        <a href="https://www.instagram.com/bunny_xpress/"
+        className="hover:text-black transition duration-300">
           <BsInstagram />
         </a>
-        <a href="https://www.tiktok.com/@bunnyxpressstickers">
+        <a href="https://www.tiktok.com/@bunnyxpressstickers"
+        className="hover:text-black transition duration-300">
           <BsTiktok />
         </a>
-        <a href="https://www.etsy.com/shop/BunnyXpress?ref=profile_header">
+        <a href="https://www.etsy.com/shop/BunnyXpress?ref=profile_header"
+        className="hover:text-black transition duration-300">
           <FaEtsy />
         </a>
       </section>

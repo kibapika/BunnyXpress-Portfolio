@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="w-[50%] min-w-min flex flex-row justify-around content-center items-center text-[1.25rem] text-[#bcb8b1]">
+    <div className="w-[50%] min-w-min flex flex-row justify-around content-center items-center text-[1.1rem] text-[#bcb8b1]">
       <NavLink
         to="/home"
         className={({ isActive }) =>
