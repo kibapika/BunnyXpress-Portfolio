@@ -43,7 +43,7 @@ const About = () => {
         </div>
       </section>
       <button
-        className="w-[40%] h-full flex justify-center items-center"
+        className="w-[30%] flex justify-center items-center"
         onClick={() => setToggler(!toggler)}
       >
         <img className="max-h-full" alt="lemonTea" src={lemonTea} />{" "}

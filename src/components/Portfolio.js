@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import { printsImg, bookmarkImg } from "./bulkImg";
+import { printsDB, bookmarksDB, stickersDB } from "./DB";
 
 const Portfolio = () => {
   const [toggler, setToggler] = useState(false);
@@ -13,9 +13,9 @@ const Portfolio = () => {
       <section className="w-[90%]">
         <h1>Prints</h1>
         <div className="grid grid-cols-3 gap-2 place-items-center">
-          {printsImg.map((img) => (
+          {printsDB.map((img) => (
               <button
-                className="w-[50%]"
+                className="w-[55%]"
                 onClick={() => setToggler(!toggler) & setPic([img.img])}
                 key={img.id}
               >
@@ -32,9 +32,28 @@ const Portfolio = () => {
       <section className="w-[90%]">
         <h1>Bookmarks</h1>
         <div className="grid grid-cols-3 gap-2 place-items-center">
-          {bookmarkImg.map((img) => (
+          {bookmarksDB.map((img) => (
               <button
-                className="w-[50%]"
+                className="w-[55%]"
+                onClick={() => setToggler(!toggler) & setPic([img.img])}
+                key={img.id}
+              >
+                <img
+                  alt="printImg"
+                  src={img.img}
+                  key={img.id}
+                />
+                <span>{img.name}</span>
+              </button>
+          ))}
+        </div>
+      </section>
+      <section className="w-[90%]">
+        <h1>Stickers</h1>
+        <div className="grid grid-cols-3 gap-2 place-items-center">
+          {stickersDB.map((img) => (
+              <button
+                className="w-[55%]"
                 onClick={() => setToggler(!toggler) & setPic([img.img])}
                 key={img.id}
               >
