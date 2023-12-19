@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="h-screen flex flex-col justify-between">
       <Header />
-      <main>
+      <main className="flex justify-center content-center">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
