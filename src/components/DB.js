@@ -56,17 +56,17 @@ export const printsDB = [
 
 export const bookmarksDB = [
     {
-        id: 4,
+        id: 7,
         img: krabbyBook,
         name: "Krabby Cookie Bookmark"
     },
     {
-        id: 5,
+        id: 8,
         img: gengarBook,
         name: "Heart Gengar Bookmark"
     },
     {
-        id: 6,
+        id: 9,
         img: heartBook,
         name: "Heart Eevee Bookmark"
     }
@@ -74,47 +74,47 @@ export const bookmarksDB = [
 
 export const stickersDB = [
     {
-        id: 7, 
+        id: 10, 
         img: pumpkinBunny,
         name: "Halloween Bunny"
     },
     {
-        id: 8, 
+        id: 11, 
         img: dog,
         name: "Puppy with Favorite Bone"
     },
     {
-        id: 9,
+        id: 12,
         img: dumplin,
         name: "Chubby Dumplin"
     },
     {
-        id: 10,
+        id: 13,
         img: eeveelution,
         name: "Eeveelution"
     },
     {
-        id: 11,
+        id: 14,
         img: mimikyu,
         name: "Mimikyu"
     },
     {
-        id: 12,
+        id: 15,
         img: nomnomGengar,
-        name: "Nomnom Gengar"
+        name: "Nom Nom Gengar"
     },
     {
-        id: 13,
+        id: 16,
         img: genshinSlime,
         name: "Genshin Slime"
     },
     {
-        id: 14,
+        id: 17,
         img: ghostBunny,
         name: "Ghost Bunny"
     },
     {
-        id: 15,
+        id: 18,
         img: krabby,
         name: "Krabby Cookies"
     }
