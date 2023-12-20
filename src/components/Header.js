@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="h-[15%] min-h-[15%] flex flex-row justify-around content-center items-center">
-      <h1 className="text-[2.35rem] min-w-min">
+      <h1 className="text-[5vw] sm:text-[2.35rem]">
         <NavLink to="/home">BunnyXpress</NavLink>
       </h1>
       <Nav />

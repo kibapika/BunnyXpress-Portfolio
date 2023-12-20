@@ -9,9 +9,9 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="h-screen flex flex-col justify-between">
+    <div className="h-[100dvh] w-[100dvw] flex flex-col justify-between">
       <Header />
-      <main className="flex justify-center content-center">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

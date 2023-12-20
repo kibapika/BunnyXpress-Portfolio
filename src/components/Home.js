@@ -8,11 +8,11 @@ const Home = () => {
   const [toggler, setToggler] = useState(false);
 
   return (
-    <div className="w-full flex flex-row-reverse justify-evenly items-center">
-      <section className="w-[40%]">
+    <div className="w-[100dvw] flex flex-col-reverse items-center sm:justify-evenly sm:flex-row-reverse">
+      <section className="w-[75%] flex flex-col items-center sm:items-start sm:w-[40%]">
         <h1 className="text-[1.7rem]">Welcome to</h1>
-        <h1 className="text-[3.2rem] font-bold py-3">BunnyXpress</h1>
-        <p className="text-[1.05rem] pb-4">
+        <h1 className="text-[2.3rem] font-bold sm:text-[3.2rem] sm:py-2">BunnyXpress</h1>
+        <p className="text-[1.05rem] py-2 pb-4 text-center sm:text-left ">
           You will find various artwork and merchandise that I have created.
         </p>
         <div className="homeBtn">
@@ -21,10 +21,10 @@ const Home = () => {
         </div>
       </section>
       <button
-        className="w-[35%] h-full flex justify-center items-center"
+        className="pb-8 w-[85%] sm:pb-0 sm:w-[35%] flex justify-center items-center"
         onClick={() => setToggler(!toggler)}
       >
-        <img className="rounded-xl max-h-full" alt="mochiBunny" src={mochiBunny} />{" "}
+        <img className="rounded-xl" alt="mochiBunny" src={mochiBunny} />{" "}
       </button>
       <FsLightbox toggler={toggler} sources={[mochiBunny]} />
     </div>
