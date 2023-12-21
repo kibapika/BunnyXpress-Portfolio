@@ -12,7 +12,7 @@ const Home = () => {
       <section className="w-[75%] flex flex-col items-center sm:items-start sm:w-[40%]">
         <h1 className="text-[1.7rem]">Welcome to</h1>
         <h1 className="text-[2.3rem] font-bold sm:text-[3.2rem] sm:py-2">BunnyXpress</h1>
-        <p className="text-[1.05rem] py-2 pb-4 text-center sm:text-left ">
+        <p className="text-[1.05rem] py-2 pb-4 text-center sm:text-left">
           You will find various artwork and merchandise that I have created.
         </p>
         <div className="homeBtn">
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </section>
       <button
-        className="pb-8 w-[85%] sm:pb-0 sm:w-[35%] flex justify-center items-center"
+        className="pb-8 w-[85%] sm:pb-0 sm:w-[35%]"
         onClick={() => setToggler(!toggler)}
       >
         <img className="rounded-xl" alt="mochiBunny" src={mochiBunny} />{" "}
