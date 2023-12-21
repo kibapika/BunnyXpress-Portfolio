@@ -8,13 +8,13 @@ const Portfolio = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-[1.8rem] py-2">Portfolio</h1>
-      <section className="w-[78%] pb-3">
+      <h1 className="text-[2rem] sm:py-2">Portfolio</h1>
+      <section className="w-[80%] sm:w-[78%] pb-3">
         <h1 className="text-[1.4rem] pb-3">Prints</h1>
-        <div className="grid grid-cols-3 gap-4 place-items-center backdrop-grayscale hover:backdrop-grayscale-0">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 place-items-center backdrop-grayscale hover:backdrop-grayscale-0">
           {printsDB.map((img) => (
             <button
-              className="w-[65%] relative"
+              className="sm:w-[65%] relative"
               onClick={() => setToggler(!toggler) & setPic([img.img])}
               key={img.id}
             >
@@ -26,12 +26,12 @@ const Portfolio = () => {
           ))}
         </div>
       </section>
-      <section className="w-[78%] pb-3">
+      <section className="w-[80%] sm:w-[78%] pb-3">
         <h1 className="text-[1.4rem] pb-3">Bookmarks</h1>
-        <div className="grid grid-cols-3 gap-4 place-items-center backdrop-grayscale hover:backdrop-grayscale-0">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 place-items-center backdrop-grayscale hover:backdrop-grayscale-0">
           {bookmarksDB.map((img) => (
             <button
-              className="w-[65%] relative"
+              className="sm:w-[65%] relative"
               onClick={() => setToggler(!toggler) & setPic([img.img])}
               key={img.id}
             >
@@ -43,12 +43,12 @@ const Portfolio = () => {
           ))}
         </div>
       </section>
-      <section className="w-[78%] pb-3">
+      <section className="w-[80%] sm:w-[78%] pb-3">
         <h1 className="text-[1.4rem] pb-3">Stickers</h1>
-        <div className="grid grid-cols-3 gap-4 place-items-center backdrop-grayscale hover:backdrop-grayscale-0">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 place-items-center backdrop-grayscale hover:backdrop-grayscale-0">
           {stickersDB.map((img) => (
             <button
-              className="w-[65%] relative"
+              className="sm:w-[65%] relative"
               onClick={() => setToggler(!toggler) & setPic([img.img])}
               key={img.id}
             >
