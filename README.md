@@ -7,10 +7,10 @@ BunnyXpress
 </h1>
 
 <p align="center">
-My small business art portfolio website built with <a href="https://github.com/facebook/create-react-app">React App</a>.
+My small business (BunnyXpress) art portfolio website built with <a href="https://github.com/facebook/create-react-app">React App</a> and hosted by <a href="https://www.netlify.com/">Netlify</a>. Desktop and mobile friendly!
 </p>
 
-<h3 align="center"><a href="https://eve-evali.vercel.app/">Welcome to BunnyXpress!</a></h3>
+<h3 align="center"><a href="https://bunnyxpress.netlify.app/">Welcome to BunnyXpress!</a></h3>
 
 <div align="center">
 <img src="./screenshots/homepg.png" alt="homePg" width="450">
@@ -25,6 +25,7 @@ Built with ...
 - Tailwind
 - fslightbox
 - CSS
+- Netlify
 
 ## Colors
 
