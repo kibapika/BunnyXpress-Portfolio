@@ -14,6 +14,8 @@ My small business (BunnyXpress) art portfolio website built with <a href="https:
 
 <div align="center">
 <img src="./screenshots/homepg.png" alt="homePg" width="450">
+</div>
+<div align="center">
 <img src="./screenshots/mobilehome.png" alt="mobilehome" width="200">
 <img src="./screenshots/mobileport2.png" alt="mobileport2" width="200">
 </div>
